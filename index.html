@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>Countdown</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="countdown">
+
+            <header>
+                <h1>Ready to launch in</h1>
+            </header>
+
+            <div class="countdown-timer">
+                <div class="countdown-item">
+                    <p class="countdown-item-text">Days</p>
+                    <p class="countdown-item-number" id="days">00</p>  
+                </div>
+                <div class="countdown-item">
+                    <p class="countdown-item-dot">:</p>
+                </div>
+                <div class="countdown-item">
+                    <p class="countdown-item-text">Hours</p>
+                    <p class="countdown-item-number" id="hours">00</p>
+                </div>
+                <div class="countdown-item">
+                    <p class="countdown-item-dot">:</p>
+                </div>
+                <div class="countdown-item">
+                    <p class="countdown-item-text">Minutes</p>
+                    <p class="countdown-item-number" id="minutes">00</p>
+                </div>
+                <div class="countdown-item">
+                    <p class="countdown-item-dot">:</p>
+                </div>
+                <div class="countdown-item">
+                    <p class="countdown-item-text">Seconds</p>
+                    <p class="countdown-item-number" id="seconds">00</p>
+                </div>
+            </div>
+
+            <footer>
+                <span>Sign up for more information...</span>
+                <button class="button" id="button-sign-up">Sign up</button>
+            </footer>
+
+        </div>
+
+        <div class="rocket-image">
+            <img src="./assets/rocket.svg" alt="">
+        </div>
+
+
+        <dialog>
+
+            <button id="button-close">&times;</button>
+
+            <div id="form">
+
+                <form action="">
+                    <h2>Sign up</h2>
+
+                    <label for="username">Name</label>
+                    <div class="form-input">
+                        <i class="fa fa-user-circle" aria-hidden="true"></i>
+                        <input name="username" placeholder="Username" type="text" maxlength="40">
+                    </div>
+
+                    <label for="email">Email</label>
+                    <div class="form-input">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <input name="email" placeholder="Email" type="email">
+                    </div>
+
+                    <label for="senha">Password</label>
+                    <div class="form-input">
+                        <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                        <input name="password" placeholder="Password" type="password" maxlength="20">
+                    </div>
+
+                    <div>
+                        <button class="button" type="submit" disabled>Confirm</button>
+                    </div>
+                </form>
+            </div>
+        </dialog>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/ca14b9e588.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
