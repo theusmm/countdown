@@ -1,7 +1,7 @@
 <h1 align="center"> Theme Switcher </h1>
 
 <p align="center">
-Countdown é um projeto desafio proposto pela <a href="https://www.rocketseat.com.br/">Rocketseat</a>, no qual existe um relógio que mostra quanto tempo falta até uma data pré determinada<br/>
+Countdown é um projeto desafio proposto pela <a href="https://www.rocketseat.com.br/">Rocketseat</a>, no qual existe uma página de coming soon (em breve) para o lançamento de um site, produto ou serviço, que contém um countdown timer (timer de contagem regressiva) informando quanto tempo falta para o lançamento.<br/>
 </p>
 <p align="center">
   <img alt="License" src="./assets/preview.png">
